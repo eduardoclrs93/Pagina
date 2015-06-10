@@ -13,6 +13,9 @@
 .navbar-default .navbar-brand{
 	color: #040005;
 }
+.pfooter{
+	text-align: left;
+}
 
 .navbar-default .navbar-brand:hover, 
 .navbar-default .navbar-brand:focus{
@@ -69,6 +72,10 @@ a:hover{
 
 .altominimo{
 	min-height: 150px;
+}
+.iconsocial{
+	width: 50px;
+	height: 50px;
 }
 
 footer{
