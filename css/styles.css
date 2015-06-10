@@ -77,7 +77,7 @@ footer{
 	color: #FFFFFA;
 }
 @media screen and (max-width: 600px){
-	html{overflow-x: hidden;}
+
 	#normal {
 		display: none;
 	}
