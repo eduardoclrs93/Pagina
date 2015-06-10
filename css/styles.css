@@ -1,0 +1,105 @@
+#boot {
+	display: none;
+	font-family: 'Dosis', sans-serif;
+	background: #FFFFFA;
+
+
+}
+.titulo1{
+	padding-top: 25px;
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+}
+.navbar-default .navbar-brand{
+	color: #040005;
+}
+
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus{
+	color: #F2580A;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #040005;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #F2580A;
+}
+.esconder{
+	display: none;
+}
+.esconder2{
+	display: inline;
+}
+
+#normal{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.6em;
+	background-color: #FFFFFA;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 0px;
+}
+
+#normal li{
+	margin-right: 50px;	
+
+}
+
+a{
+	color: #040005;
+}
+a:hover{
+	color: #F2580A;
+	text-decoration: none;
+}
+#normal a:hover{
+	border-bottom: 2px solid;
+}
+
+.fondojumbo{
+	background: url(../Resources/fondo3.png) no-repeat center center;
+	margin-top: 0px;
+	width: 100%;
+	height: auto;
+
+}
+.divalto{
+	height: 400px;
+}
+.navbar-default{
+	background-color: #FFFFFA;
+
+}
+
+
+.altominimo{
+	min-height: 150px;
+}
+
+footer{
+	background-color: #1E1E1F;
+	padding-bottom: 10px;
+	color: #FFFFFA;
+}
+@media screen and (max-width: 600px){
+	#normal {
+		display: none;
+	}
+	#boot{
+		display: block;
+	}
+	.esconder{
+		display: inline;
+	}
+	.esconder2{
+		display: none;
+	}
+	.anchoimagen{
+		width: 100%;
+	}
+	.tamanoimagen{
+		width: 50%;
+		height: auto;
+	}
+
+}
