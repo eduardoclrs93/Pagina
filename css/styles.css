@@ -39,6 +39,9 @@
 	padding-bottom: 25px;
 	margin-bottom: 0px;
 }
+.anchoimagen{
+	width: 100%;
+}
 
 #normal li{
 	margin-right: 50px;	
@@ -56,13 +59,6 @@ a:hover{
 	border-bottom: 2px solid;
 }
 
-.fondojumbo{
-	background: url(../Resources/fondo3.png) no-repeat center center;
-	margin-top: 0px;
-	width: 100%;
-	height: auto;
-
-}
 .divalto{
 	height: 400px;
 }
@@ -70,7 +66,6 @@ a:hover{
 	background-color: #FFFFFA;
 
 }
-
 
 .altominimo{
 	min-height: 150px;
