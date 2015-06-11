@@ -89,6 +89,17 @@ footer{
 	padding-bottom: 10px;
 	color: #FFFFFA;
 }
+.fondoabout{
+	background: url(../Resources/fondoabout1.png);
+}
+.titulo2{
+	padding-top: 25px;
+	text-align: right;
+	font-family: 'Exo', sans-serif;
+	color: #FFFFFA;
+	font-size: 3em;
+
+}
 
 @media screen and (max-width: 600px){
 
